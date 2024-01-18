@@ -9,8 +9,8 @@ import { compare } from "bcryptjs";
 const handler = NextAuth({
   providers: [
     GoogleProvider({
-      clientId: process.env.GOOGLE_CLIENT_ID,
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+      clientId: process.env.client_id,
+      clientSecret: process.env.client_secret,
       authorization: {
         params: {
           prompt: "consent",
