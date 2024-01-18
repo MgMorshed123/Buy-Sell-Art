@@ -1,5 +1,5 @@
 
-import Provider from "@Components/Provider"
+import Provider from "@components/Provider"
 import { ChildCare } from "@mui/icons-material"
 import "@styles/global.css"
 import { Children } from "react"
