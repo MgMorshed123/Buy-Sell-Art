@@ -1,9 +1,13 @@
-import React from 'react'
+// import Feed from "@components/Feed"
+import Navbar from "@components/Navbar"
 
-const page = () => {
+const Home = () => {
   return (
-    <div>page</div>
+    <>
+      <Navbar />
+      {/* <Feed /> */}
+    </>
   )
 }
 
-export default page
+export default Home
