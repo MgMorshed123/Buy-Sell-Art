@@ -28,6 +28,7 @@ const CreateWork = () => {
     e.preventDefault()
 
     try {
+      
       const newWorkForm = new FormData()
 
       for (var key in work) {
