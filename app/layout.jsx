@@ -1,4 +1,5 @@
 
+import Provider from "@Components/Provider"
 import { ChildCare } from "@mui/icons-material"
 import "@styles/global.css"
 import { Children } from "react"
@@ -15,9 +16,11 @@ const layout = ({children}) => {
   return (
     <html>
         <body>
-            <main>
+           <Provider>
+           <main>
                 {children}
             </main>
+           </Provider>
         </body>
     </html>
   )
